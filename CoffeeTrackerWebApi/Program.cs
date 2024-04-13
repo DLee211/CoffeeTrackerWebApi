@@ -1,5 +1,6 @@
 using CoffeeTrackerWebApi;
 using CoffeeTrackerWebApi.Models;
+using CoffeeTrackerWebApi.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,10 +10,13 @@ builder.Services.AddDbContext<CoffeeDbContext>(options =>
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<CoffeeService>();
+builder.Services.AddControllers(); 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 
 using (var scope = app.Services.CreateScope())
 {
@@ -33,9 +37,21 @@ using (var scope = app.Services.CreateScope())
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    });
 }
 
 app.UseHttpsRedirection();
+
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
+
+app.Run();
 
 
