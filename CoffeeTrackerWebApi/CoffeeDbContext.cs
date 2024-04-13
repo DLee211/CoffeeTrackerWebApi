@@ -5,9 +5,9 @@ namespace CoffeeTrackerWebApi;
 
 public class CoffeeDbContext : DbContext
 {
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public CoffeeDbContext (DbContextOptions<CoffeeDbContext> options)
+        : base(options)
     {
-        optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=CoffeeTracker.db;Integrated Security=True");
     }
     
     public DbSet<Coffee> Coffees { get; set; }
