@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\browser\\favicon.ico",
+      "PackagePath": "staticwebassets\\browser\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\browser\\index.html",
+      "PackagePath": "staticwebassets\\browser\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\browser\\main-OA3BTA7E.js",
+      "PackagePath": "staticwebassets\\browser\\main-OA3BTA7E.js"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\browser\\polyfills-RT5I6R6G.js",
+      "PackagePath": "staticwebassets\\browser\\polyfills-RT5I6R6G.js"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\browser\\styles-5INURTSO.css",
+      "PackagePath": "staticwebassets\\browser\\styles-5INURTSO.css"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\prerendered-routes.json",
+      "PackagePath": "staticwebassets\\prerendered-routes.json"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\chunk-O73ZHKXN.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-O73ZHKXN.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\chunk-QHFL7MKZ.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-QHFL7MKZ.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\chunk-THFN5GNH.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-THFN5GNH.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\chunk-VVCT4QZE.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-VVCT4QZE.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\index.server.html",
+      "PackagePath": "staticwebassets\\server\\index.server.html"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\main.server.mjs",
+      "PackagePath": "staticwebassets\\server\\main.server.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\polyfills.server.mjs",
+      "PackagePath": "staticwebassets\\server\\polyfills.server.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\render-utils.server.mjs",
+      "PackagePath": "staticwebassets\\server\\render-utils.server.mjs"
+    },
+    {
+      "Id": "C:\\Users\\dnll4\\RiderProjects\\CoffeeTrackerWebApi\\CoffeeTrackerWebApi\\wwwroot\\server\\server.mjs",
+      "PackagePath": "staticwebassets\\server\\server.mjs"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoffeeTrackerWebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CoffeeTrackerWebApi.props",
+      "PackagePath": "build\\CoffeeTrackerWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CoffeeTrackerWebApi.props",
+      "PackagePath": "buildMultiTargeting\\CoffeeTrackerWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CoffeeTrackerWebApi.props",
+      "PackagePath": "buildTransitive\\CoffeeTrackerWebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
