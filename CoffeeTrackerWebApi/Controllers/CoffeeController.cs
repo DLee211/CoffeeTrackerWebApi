@@ -42,7 +42,9 @@ public class CoffeeController : ControllerBase
     [HttpPut("{id}")]
     public ActionResult UpdateCoffee(int id, Coffee coffee)
     {
-        if (id != coffee.Id)
+        coffee.Id = id;
+        var existingCoffee = _coffeeService.GetCoffeeById(id);
+        if (existingCoffee == null)
         {
             return BadRequest();
         }

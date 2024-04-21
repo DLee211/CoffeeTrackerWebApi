@@ -31,8 +31,14 @@ public class CoffeeService
     
     public Coffee UpdateCoffee(Coffee coffee)
     {
-        _context.Entry(coffee).State = EntityState.Modified;
-        _context.SaveChanges();
+        var existingCoffee = _context.Coffees.FirstOrDefault(c => c.Id == coffee.Id);
+        if (existingCoffee != null)
+        {
+            existingCoffee.DateConsumed = coffee.DateConsumed;
+            existingCoffee.Cups = coffee.Cups;
+            existingCoffee.Notes = coffee.Notes;
+            _context.SaveChanges();
+        }
         return coffee;
     }
     
