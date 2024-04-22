@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeeTrackerWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+441cc505963593d100eadfb23790888d07962770")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67c89e40417a377a6578b2206460037c4ccd91d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeeTrackerWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeeTrackerWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
