@@ -2,6 +2,17 @@
 
 This is a simple Web API project for tracking coffee consumption. It's built with .NET 8.0 and uses Entity Framework Core for data access.
 
+## Setup
+
+1. Clone the repository
+2. Navigate to the project directory
+3. Create a file named `appsettings.Development.json` in the root directory and update the DefaultConnection string.
+
+Replace "Your connection string here" with your actual SQL Server connection string.  
+1. Run dotnet restore to restore the necessary packages
+2. Run dotnet ef database update to apply the database migrations
+3. Run dotnet run to start the application
+
 ## Features
 
 - Get all coffees
@@ -9,13 +20,6 @@ This is a simple Web API project for tracking coffee consumption. It's built wit
 - Add a new coffee
 - Update an existing coffee
 - Delete a coffee
-
-## Setup
-
-1. Clone the repository
-2. Navigate to the project directory
-3. Run `dotnet restore` to restore the necessary packages
-4. Run `dotnet run` to start the application
 
 ## API Endpoints
 
